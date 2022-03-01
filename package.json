@@ -1,21 +1,27 @@
 {
-    "name": "splash-theme",
-    "displayName": "splash-theme",
-    "description": "A Fresh new theme for vscode",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.64.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Fresh Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Fresh Theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "splash-theme",
+  "displayName": "Splash Theme",
+  "description": "A Fresh new theme for vscode",
+  "version": "0.0.3",
+  "publisher": "RLabsInc",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/RLabs-Lamp.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fresh Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fresh Theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigoluglio/splash-theme.git"
+  }
 }

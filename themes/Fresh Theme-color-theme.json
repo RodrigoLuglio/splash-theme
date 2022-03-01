@@ -14,6 +14,7 @@
     "activityBar.inactiveForeground": "#717574",
     "activityBarBadge.background": "#6bc2a1",
     "activityBarBadge.foreground": "#000000",
+    "activityBar.activeFocusBorder": "#ff0000",
 
     //-------------------------------------------------------
     //
@@ -147,7 +148,7 @@
 
     "editorSuggestWidget.background": "#0f0c0f",
     "editorSuggestWidget.foreground": "#f7f5f7",
-    "editorSuggestWidget.selectedBackground": "#6bc2a1",
+    "editorSuggestWidget.selectedBackground": "#6bc2a15d",
 
     // INDENT GUIDES
     "editorIndentGuide.activeBackground": "#ffffff45",
@@ -895,7 +896,6 @@
     {
       "scope": [
         "entity.name.class",
-        "entity.name.type",
         "entity.name.type.class",
         "entity.other.inherited-class",
         "entity.name.fragment.graphql",
@@ -959,6 +959,7 @@
     {
       "scope": [
         "support",
+        "entity.name.type",
         "entity.other.attribute-name.pseudo-class.css",
         "entity.other.attribute-name.pseudo-element.css"
       ],
@@ -1471,7 +1472,7 @@
         "meta.variable.assignment.destructured.object.coffee variable"
       ],
       "settings": {
-        "foreground": "#525D69"
+        "foreground": "#D69971"
       }
     },
     {
